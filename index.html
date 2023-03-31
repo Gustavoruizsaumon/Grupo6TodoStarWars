@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/space-station.png">
+    <!--css Bootstrap 4.5-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!---->
+    <!--Iconos Bootstrap 1.10.3-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!--end iconos de Bootstrap-->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Todo Star Wars</title>
+  </head>
+
+  <body>
+    <!-- este es es navbar-->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Inicio<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estadisticas.html">Estadisticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pedidos.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Seguimiento.html">Seguimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+         <!-- carousel -->
+         <div class="row margin-carousel">
+         <div
+         id="carouselExampleControls"
+         class="carousel slide mt-5 mb-5 col-md-10 offset-md-1"  
+         data-ride="carousel"
+       >
+         <div class="carousel-inner d-flex align-items-center carousel-height">
+           <div class="carousel-item active">
+             <img
+               src="https://rare-gallery.com/thumbs/505370-star-wars-hd.jpg"
+               class="d-block w-100"
+               alt="sw-darth"
+             />
+           </div>
+           <div class="carousel-item">
+             <img
+               src="https://www.xtrafondos.com/wallpapers/darth-vader-pelea-star-wars-10673.jpg"
+               class="d-block w-100"
+               alt="stw-strooper"
+             />
+           </div>
+           <div class="carousel-item">
+            <img
+              src="https://lumiere-a.akamaihd.net/v1/images/626fd61e9b37110001dafe6c-image_65f027b6.jpeg"
+              class="d-block w-100"
+              alt="stw-strooper"
+            />
+          </div>
+           <div class="carousel-item">
+             <img
+               src="https://www.todofondos.net/wp-content/uploads/star-wars-hd-wallpaper-fondo-e-imagen-1-scaled.jpg"
+               class="d-block w-100"
+               alt="sw-jedis"
+             />
+           </div>
+           <div class="carousel-item">
+             <img
+               src="https://cdn.wallpapersafari.com/34/72/ZFxA21.jpg"
+               class="d-block w-100"
+               alt="stw-jedi"
+             />
+           </div>
+         </div>
+         <a
+           class="carousel-control-prev"
+           href="#carouselExampleControls"
+           role="button"
+           data-slide="prev"
+         >
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a
+           class="carousel-control-next"
+           href="#carouselExampleControls"
+           role="button"
+           data-slide="next"
+         >
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+      </div>
+       <!-- fin carousel -->
+
+    <div class="container">
+      <header class="row mt-4">
+        <div class="jumbotron">
+          <h1 class="display-4 text-dark">Todo Star Wars</h1>
+          <p class="lead ">
+            Bienvenidos a Todo Star Wars!! creada en el 2023 por cuatro estudiantes de programación, es un lugar de ensueño para los fanáticos de la saga. La tienda ofrece una amplia variedad de productos, desde camisetas hasta figuras de acción, pasando por objetos coleccionables y disfraces para niños y adultos.
+          </p>
+          <hr class="my-4" />
+          <p>
+            Con un equipo apasionado y dedicado, la empresa está lista para
+            enfrentar cualquier reto que se presente en el futuro.
+          </p>
+          <a class="btn btn-primary btn-lg" href="#presentacion" role="button"
+            >Leer más</a
+          >
+        </div>
+      </header>
+      <!--card Presentacion-->
+      <section class="row" id="presentacion">
+        <div class="card mt-5 mb-5 w-100">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img
+                src="https://www.onqsolutions.com/wp-content/uploads/2021/08/target-disney-shop-tros-1.jpg"
+                style="max-height: 250px"
+                class="card-img"
+                alt="sw-store"
+              />
+            </div>
+            <div
+              class="col-md-8 d-flex justify-content-center align-items-center"
+            >
+              <div class="card-body">
+                <h3 class="font-italic">"Selección única en productos de la galaxia"</h3>
+                <p class="card-text">
+                  Cada producto que se ofrece en la tienda ha sido cuidadosamente seleccionado por el equipo, con la intención de brindar a los clientes una experiencia única y satisfactoria.
+                </p>
+                <p>Además de los productos de alta calidad, la tienda cuenta con una página web bien diseñada y fácil de navegar. Se ofrecen envíos rápidos y gratuitos en todo el país, y los clientes pueden estar seguros de que sus productos llegarán en perfectas condiciones.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-5 mb-5 w-100">
+          <div class="row no-gutters">
+            <div
+              class="col-md-8 d-flex justify-content-center align-items-center"
+            >
+              <div class="card-body">
+                <h3 class="font-italic">"Una experiencia de compra excepcional para los fans"</h3>
+                <p class="card-text">
+                  La tienda online de Star Wars ha sido un gran éxito desde su creación en el 2023, y ha ganado una gran cantidad de seguidores y clientes fieles. Los cuatro estudiantes que la crearon están comprometidos con brindar una experiencia de compra única y emocionante a todos los fanáticos de Star Wars, y seguirán expandiendo su inventario y mejorando su servicio al cliente en el futuro. Si eres un fanático de Star Wars, ¡no puedes perderte esta increíble tienda en línea!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_36/1206111/150904-chewbacca-0428.jpg"
+                style="max-height: 250px; object-fit: cover"
+                class="card-img"
+                alt="sw-store"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--fin presentacion card-->
+
+<!--Galeria de imagenes-->
+<header class="row mt-4">
+  <div class="col-12">
+    <h2 class="mt-3 mb-2">Algunos de nuestros productos</h2>
+    <hr class="mt-2 mb-5" />
+  </div>
+</header>
+<section>
+       
+  <div id="imagenes">
+  <div class="row text-center text-lg-start">
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/1.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/1.jpg"
+          alt="Empire Strikes Back" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/2.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/2.jpg" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/3.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/3.jpg"
+          alt="" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/4.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/4.jpg"
+          alt="" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/5.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/5.jpg" alt="" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/6.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/6.jpg" alt="" />
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/9.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/9.jpg"
+          alt="" />
+      </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-12">
+      <a href="img/12.jpg" class="d-block mb-4 h-100">
+        <img class="img-fluid shadow img-thumbnail fixed-size"
+          src="img/12.jpg" />
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+<!--end galeria de imagenes-->
+
+
+ 
+
+      <hr class="mt-2 mb-5" />
+    </div>
+    <!--cierre contenedor Principal-->
+
+    <!-- ini Footer-->
+    <footer
+      class="dark-section d-flex flex-column align-items-center justify-content-center"
+    >
+      <p class="footer-text text-center">Todo Star Wars</p>
+      <div
+        class="icons-rrss d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a href="#">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="authors text-center">
+       Jorge Moraga C., Juan Pino C., Gustavo Ruíz S.
+        &copy; 2023
+      </div>
+    </footer>
+    <!--end Footer-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!--cierre body-->
+</html>

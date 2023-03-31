@@ -1,0 +1,116 @@
+
+body {
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+  float: left;
+  margin: 8px 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.carousel-height{
+  height: 200px;
+}
+
+.container{
+ min-height: 460px;
+ 
+}
+
+.fixed-size {
+  width: 250px;
+  height: 300px;
+}
+
+#imagenes img{
+  
+  transition: 800ms;
+  position: relative;
+
+}
+
+textarea {
+  resize: none;
+}
+
+#imagenes img:hover{
+
+transform: scale(1);
+
+}
+
+
+
+  a:hover{
+    transform: scale(1.15);
+    }
+
+/*CSS FOOTER*/
+.dark-section {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.lead {
+  font-size: medium;
+}
+
+footer {
+  min-width: 400px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.icons-rrss a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.icons-rrss i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.icons-rrss a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+
+}
+
+.icons-rrss a:hover i {
+  color: black;
+}
+
+.authors {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+/*FIN CSS FOOTER*/
+
+/* responsive   */
+@media screen and (min-width:800px){
+
+  .carousel-height{
+    height: 500px;
+  }
+}
